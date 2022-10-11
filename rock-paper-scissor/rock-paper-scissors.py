@@ -4,7 +4,7 @@ from random import randint
 t = ["Rock", "Paper", "Scissors"]
 
 #assign a random play to the computer
-Computer = t[randint(0,2)]
+computer = t[randint(0,2)]
 
 #set player to False
 player = false
@@ -14,10 +14,10 @@ while player == false:
     player = input("Rock, Paper, Scissors?\n")
   
     if player == computer:
-        print("/nTie!")
-        print("Type Exit to end game./n")
+        print("\nTie!")
+        print("Type Exit to end game.\n")
       
-    elif player == "Rock"
+    elif player == "Rock":
         if computer == "Paper"
             print("\nYou lose!", computer, "covers", player)
             print("Type Exit to end game.\n")         
@@ -27,13 +27,13 @@ while player == false:
           
     elif player == "Paper":
         if computer == "Scissors":
-            print("\nYou lose!", computer, "cut", player
-            print("Type Exit to end game.\n"
+            print("\nYou lose!", computer, "cut", player)
+            print("Type Exit to end game.\n")
         else:
             print("\nYou win!", player, "covers", computer)
             print("Type Exit to end game.\n")
           
-  elif player == "Scissors"
+  elif player == "Scissors":
         if computer == "Rock":
             print("\nYou lose...", computer, "smashes", player)
             print("Type Exit to end game.\n")          
